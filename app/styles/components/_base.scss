@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  background: $gray-100;
+  font-family: var(--font-sf), sans-serif;
+  font-weight: 400;
+}
+
+section.section {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(203, 37, 224, 1) 0%,
+    rgba(254, 0, 2, 1) 100%
+  );
+  color: white;
+  border: none;
+
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(254, 0, 2, 1) 0%,
+      rgba(203, 37, 224, 1) 100%
+    );
+    color: white;
+  }
+}
+
+.cta-button {
+  text-transform: uppercase;
+  font-family: var(--font-sf), sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
