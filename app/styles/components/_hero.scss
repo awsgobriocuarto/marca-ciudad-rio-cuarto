@@ -1,0 +1,62 @@
+.hero {
+  background-color: $gray-200;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+
+  &-content {
+    min-height: 100%;
+    padding: 120px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .display-1 {
+    color: $primary;
+    font-weight: 300;
+    line-height: 0.85;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  // .lead {
+  //   font-size: 1.6rem;
+  //   line-height: 1.7rem;
+  //   font-weight: 300;
+  //   color: $gray-700;
+  // }
+
+  .text-top {
+    font-weight: 200;
+    color: $gray-700;
+    font-size: 1.1rem;
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    &-content {
+      min-height: 100%;
+      padding: 120px 0;
+    }
+    h1 {
+      line-height: 0.9;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    .lead {
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+    }
+  }
+}

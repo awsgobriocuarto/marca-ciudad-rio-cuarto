@@ -1,0 +1,22 @@
+.floating-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1050;
+  cursor: pointer;
+
+  .floating-img {
+    transition: transform 0.2s ease;
+  }
+
+  .floating-img:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 767px) {
+  .floating-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
