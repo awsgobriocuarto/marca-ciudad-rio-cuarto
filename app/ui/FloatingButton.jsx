@@ -9,7 +9,7 @@ export default function FloatingButton() {
   return (
     <div className="floating-button" onClick={() => setShow(true)}>
       <Image
-        src="/images/floating-cta-button.webp"
+        src="/images/floating-cta-button.svg"
         alt="Ingresá a la encuesta"
         width={100}
         height={75}
@@ -17,7 +17,7 @@ export default function FloatingButton() {
         className="floating-img d-none d-md-block"
       />
       <Image
-        src="/images/floating-cta-button.webp"
+        src="/images/floating-cta-button.svg"
         alt="Ingresá a la encuesta"
         width={100}
         height={75}

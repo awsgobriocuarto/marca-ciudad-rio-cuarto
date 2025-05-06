@@ -13,3 +13,10 @@
     transform: scale(1.05);
   }
 }
+
+@media (max-width: 767px) {
+  .floating-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}

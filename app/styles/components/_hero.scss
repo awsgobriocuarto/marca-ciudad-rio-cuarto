@@ -13,22 +13,22 @@
     justify-content: space-between;
   }
 
-  h1 {
-    line-height: 0.85;
+  .display-1 {
     color: $primary;
     font-weight: 300;
+    line-height: 0.85;
 
     span {
       font-weight: 600;
     }
   }
 
-  .lead {
-    font-size: 1.6rem;
-    line-height: 1.7rem;
-    font-weight: 300;
-    color: $gray-700;
-  }
+  // .lead {
+  //   font-size: 1.6rem;
+  //   line-height: 1.7rem;
+  //   font-weight: 300;
+  //   color: $gray-700;
+  // }
 
   .text-top {
     font-weight: 200;

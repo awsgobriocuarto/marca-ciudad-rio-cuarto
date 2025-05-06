@@ -1,0 +1,73 @@
+.benefits {
+  &-list {
+    padding: 60px 0;
+    background-color: $primary;
+    h2,
+    h3,
+    p {
+      color: white;
+    }
+    hr {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      height: 1px;
+      background-color: white;
+      border: none;
+      opacity: 1;
+    }
+    h2 {
+      // font-size: 5rem;
+      // line-height: 4rem;
+      // margin-bottom: 50px;
+      //font-weight: 300;
+      //color: $primary;
+    }
+
+    .card {
+      background-color: transparent;
+      border: none;
+      &-body {
+        padding-right: 40px;
+      }
+      &-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      &-text {
+        font-size: 1.25rem;
+      }
+    }
+  }
+  &-text {
+    padding: 60px 0;
+    h2 {
+      color: $primary;
+      font-weight: 100;
+      b {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits {
+    &-list {
+      .card {
+        margin-bottom: 40px;
+      }
+    }
+    &-text {
+      padding: 60px 0;
+      .display-2 {
+        color: $primary;
+        font-weight: 100;
+        font-family: 3rem;
+        b {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

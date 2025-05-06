@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       {/* Font Awesome CDN */}
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" />
 
-      <body>
+      <body cz-shortcut-listen="true">
         <ModalProvider>
           {children}
           <SurveyModal />

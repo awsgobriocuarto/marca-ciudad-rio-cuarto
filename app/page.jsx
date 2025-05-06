@@ -5,7 +5,7 @@ import FloatingButton from "./ui/FloatingButton";
 import Footer from "./ui/Footer";
 import HeroSection from "./ui/HeroSection";
 import Slides from "./ui/Slides";
-import SuccessStoriesSlider from "./ui/SuccessStoriesSlider";
+import SuccessCases from "./ui/SuccessCase/SuccessCases";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <Slides />
       <BrandExplanation />
       <BenefitsGrid />
-      <SuccessStoriesSlider />
+      <SuccessCases />
       <CallToAction />
       <FloatingButton />
       <Footer />

@@ -7,10 +7,7 @@ export default function CtaButton({ text = "Accedé a la Encuesta" }) {
   const { setShow } = useModal();
 
   return (
-    <Button
-      className="btn-gradient btn-lg cta-button"
-      onClick={() => setShow(true)}
-    >
+    <Button className="btn-gradient cta-button" onClick={() => setShow(true)}>
       {text}
     </Button>
   );
