@@ -1,0 +1,113 @@
+.navbar {
+  padding: 30px 0;
+
+  background: linear-gradient(
+    90deg,
+    rgb(224, 37, 158),
+    rgba(254, 0, 2, 1),
+    rgb(224, 37, 158),
+    rgba(254, 0, 2, 1)
+  );
+  background-size: 300% 100%;
+  background-position: 0% center;
+  animation: gradientShift 6s linear infinite;
+  color: white;
+  border: none;
+  transition: color 0.3s ease;
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% center;
+    }
+    100% {
+      background-position: 100% center;
+    }
+  }
+
+  &-brand {
+    width: 200px;
+    height: 60px;
+    //background-color: rgba(white, 0.2) !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .carlos-paz {
+      height: 60px;
+    }
+    .buenos-aires {
+      height: 45px;
+    }
+    .new-york {
+      height: 60px;
+    }
+    .amsterdam {
+      height: 25px;
+    }
+    .tokyo {
+      height: 40px;
+    }
+  }
+
+  &-toggler {
+    //background-color: red;
+    //border-color: white; // opcional, borde del botón
+    border: none;
+    svg {
+      color: orange;
+    }
+  }
+  &-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  &-nav {
+    .nav-link {
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: rgba(white, 0.6) !important;
+      letter-spacing: 0.01rem;
+      &:hover,
+      &.fw-bold {
+        color: rgba(white, 1) !important;
+      }
+      &.fw-bold {
+        font-weight: 600 !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    background-color: $primary;
+    padding: 20px 0;
+    &-brand {
+      width: 200px;
+      height: 60px;
+
+      .carlos-paz {
+        height: 60px;
+      }
+      .buenos-aires {
+        height: 40px;
+      }
+      .new-york {
+        height: 50px;
+      }
+      .amsterdam {
+        height: 24px;
+      }
+      .tokyo {
+        height: 34px;
+      }
+    }
+    &-nav {
+      .nav-link {
+        text-align: center;
+      }
+    }
+  }
+}

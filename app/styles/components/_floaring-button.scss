@@ -16,7 +16,11 @@
 
 @media (max-width: 767px) {
   .floating-button {
-    bottom: 20px;
-    right: 20px;
+    bottom: 15px;
+    right: 15px;
+    // .floating-img {
+    //   transition: transform 0.2s ease;
+    //   transform: scale(0.9);
+    // }
   }
 }

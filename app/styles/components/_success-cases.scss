@@ -1,7 +1,7 @@
 .success-cases {
+  position: relative;
+
   &-city {
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
     &_image {
       width: 100%;
       height: 600px;
@@ -30,22 +30,7 @@
       line-height: 1.3rem;
     }
   }
-  &-logos {
-    padding: 20px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .btn {
-      padding: 0 50px;
-    }
-    img {
-      background-color: white;
-      &.tokyo {
-        padding: 10px;
-      }
-    }
-  }
   &-gallery {
     &_image {
       width: 100%;
@@ -57,10 +42,12 @@
 
 @media (max-width: 767px) {
   .success-cases {
+    position: relative;
+
     &-city {
       &_image {
         width: 100%;
-        height: 600px;
+        height: 300px;
         object-fit: cover;
       }
       &_content {
@@ -86,26 +73,11 @@
         line-height: 1.5rem;
       }
     }
-    &-logos {
-      padding: 20px;
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      .btn {
-        padding: 0 50px;
-      }
-      img {
-        background-color: white;
-        &.tokyo {
-          padding: 10px;
-        }
-      }
-    }
     &-gallery {
       &_image {
         width: 100%;
-        height: 800px;
+        height: 240px;
         object-fit: cover;
       }
     }
