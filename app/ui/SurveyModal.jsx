@@ -14,9 +14,11 @@ export default function SurveyModal() {
       size="xl"
       className="border-0"
     >
-      {/* <Modal.Header closeButton>
-        <Modal.Title>City Brand Survey</Modal.Title>
-      </Modal.Header> */}
+      <Modal.Header closeButton>
+        <Modal.Title className="text-primary">
+          Marca Ciudad <b>Río Cuarto</b>
+        </Modal.Title>
+      </Modal.Header>
       <Modal.Body>
         <iframe
           src="https://form.typeform.com/to/WQJ000ya"

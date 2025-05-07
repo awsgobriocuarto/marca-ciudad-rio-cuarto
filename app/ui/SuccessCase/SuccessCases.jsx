@@ -5,6 +5,8 @@ import CityInfo from "./CityInfo";
 import LogoButtons from "./LogoButtons";
 import GallerySlider from "./GallerySlider";
 import { cities } from "@/lib/data";
+import Demo from "../Demo";
+import SuccessCasesNavbar from "./SuccessCasesNavbar";
 
 export default function SuccessCases() {
   const [activeCity, setActiveCity] = useState(cities[0]);
@@ -17,15 +19,17 @@ export default function SuccessCases() {
 
   return (
     <section className="success-cases">
-      <div>
-        <CityInfo city={activeCity} />
-        <LogoButtons cities={cities} setActiveCity={handleCityChange} />
-        <GallerySlider
-          images={activeCity.gallery}
-          activeIndex={activeSlideIndex}
-          onSelect={(index) => setActiveSlideIndex(index)}
-        />
-      </div>
+      <SuccessCasesNavbar
+        cities={cities}
+        activeCity={activeCity}
+        setActiveCity={handleCityChange}
+      />
+      <CityInfo city={activeCity} />
+      <GallerySlider
+        images={activeCity.gallery}
+        activeIndex={activeSlideIndex}
+        onSelect={(index) => setActiveSlideIndex(index)}
+      />
     </section>
   );
 }
