@@ -2,6 +2,23 @@ export const images = [
   { src: "/images/slides/01.webp", alt: "Imagen 1" },
   { src: "/images/slides/02.webp", alt: "Imagen 2" },
   { src: "/images/slides/03.webp", alt: "Imagen 3" },
+  { src: "/images/slides/04.webp", alt: "Imagen 4" },
+  { src: "/images/slides/05.webp", alt: "Imagen 5" },
+  { src: "/images/slides/06.webp", alt: "Imagen 6" },
+  { src: "/images/slides/07.webp", alt: "Imagen 7" },
+  { src: "/images/slides/08.webp", alt: "Imagen 8" },
+  { src: "/images/slides/09.webp", alt: "Imagen 9" },
+  { src: "/images/slides/10.webp", alt: "Imagen 10" },
+  { src: "/images/slides/11.webp", alt: "Imagen 11" },
+  { src: "/images/slides/12.webp", alt: "Imagen 12" },
+  { src: "/images/slides/13.webp", alt: "Imagen 13" },
+  { src: "/images/slides/14.webp", alt: "Imagen 14" },
+  { src: "/images/slides/15.webp", alt: "Imagen 15" },
+  { src: "/images/slides/16.webp", alt: "Imagen 16" },
+  { src: "/images/slides/17.webp", alt: "Imagen 17" },
+  { src: "/images/slides/18.webp", alt: "Imagen 18" },
+  { src: "/images/slides/19.webp", alt: "Imagen 19" },
+  { src: "/images/slides/20.webp", alt: "Imagen 20" },
 ];
 
 export const cities = [
