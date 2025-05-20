@@ -1,3 +1,4 @@
+import { GoogleTagManager } from "@next/third-parties/google";
 import { ModalProvider } from "@/context/ModalContext";
 import SurveyModal from "@/ui/SurveyModal";
 import sfCompact from "@/lib/fonts";
@@ -22,6 +23,10 @@ export default function RootLayout({ children }) {
 
       {/* Font Awesome CDN */}
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" />
+
+      {process.env.NODE_ENV === "production" && (
+        <GoogleTagManager gtmId="GTM-5RKG87PJ" />
+      )}
 
       <body cz-shortcut-listen="true">
         <ModalProvider>
