@@ -9,3 +9,13 @@
     background-color: red;
   }
 }
+
+.tf-v1-popup {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  /* Fondo oscuro semitransparente DETRÁS del modal */
+}
+
+.tf-v1-popup .tf-v1-iframe-wrapper {
+  background-color: #FFFFFF !important;
+  /* Fondo blanco sólido PARA el modal de la encuesta */
+}
