@@ -17,25 +17,18 @@ export default function Page() {
   }, []);
 
   return (
-    <>
+    <div className="survey">
       <Script src="//embed.typeform.com/next/embed.js" strategy="afterInteractive" />
 
-      {loading && (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-          <div className="d-flex align-items-center">
-            <div className="spinner-border text-primary" role="status" aria-hidden="true"></div>
-            <strong className="ms-3">Cargando encuesta...</strong>
-          </div>
-        </div>
-      )}
 
-      <div
-        data-tf-live="01JXD1KDJWEK70MRVJR0FRPCZV"
-        data-tf-on-ready="handleTypeformReady"
-        style={{
-          display: loading ? 'none' : 'block'
-        }}
-      ></div>
-    </>
+
+      <iframe
+        src="https://form.typeform.com/to/vV1AJos4"
+        className="typeform"
+        style={{ border: "none", borderRadius: "12px" }}
+        allow="fullscreen"
+        title="City Brand Survey"
+      ></iframe>
+    </div>
   );
 }
