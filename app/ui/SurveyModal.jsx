@@ -21,7 +21,7 @@ export default function SurveyModal() {
       </Modal.Header>
       <Modal.Body>
         <iframe
-          src="https://form.typeform.com/to/WQJ000ya"
+          src="https://form.typeform.com/to/K6UHFhzY"
           width="100%"
           height="600"
           style={{ border: "none", borderRadius: "12px" }}

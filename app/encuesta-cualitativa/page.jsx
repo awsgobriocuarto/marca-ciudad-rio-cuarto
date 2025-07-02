@@ -79,7 +79,7 @@ export default function Page() {
               {/* 5. El div de Typeform ahora tiene la `ref` y un estilo para ocultarse */}
               <div
                 ref={typeformRef} // Enlazamos la referencia aquí
-                data-tf-live="01JXD1KDJWEK70MRVJR0FRPCZV"
+                data-tf-live="01JZ5ZRXNV7CNN8E91CRE8QTXQ"
                 style={{ display: loading ? 'none' : 'block' }}
               />
             </div>
